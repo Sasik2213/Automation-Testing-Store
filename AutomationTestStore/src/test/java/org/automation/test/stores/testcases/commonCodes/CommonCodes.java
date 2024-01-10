@@ -7,6 +7,7 @@ import org.automation.test.stores.pages.HomePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -25,5 +26,9 @@ public class CommonCodes {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("https://automationteststore.com/");
+	}
+	@AfterTest
+	public void endProject() {
+		driver.close();
 	}
 }
