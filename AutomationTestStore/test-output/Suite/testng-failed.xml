@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.automation.test.stores.testcases.EditAccountDetails">
+        <methods>
+          <include name="startProject"/>
+          <include name="editAccountDetails"/>
+          <include name="endProject"/>
+        </methods>
+      </class> <!-- org.automation.test.stores.testcases.EditAccountDetails -->
+      <class name="org.automation.test.stores.testcases.CreateAccountTest">
+        <methods>
+          <include name="startProject"/>
+          <include name="createAccount"/>
+          <include name="endProject"/>
+        </methods>
+      </class> <!-- org.automation.test.stores.testcases.CreateAccountTest -->
+      <class name="org.automation.test.stores.testcases.LoginAccountTesting">
+        <methods>
+          <include name="startProject"/>
+          <include name="LoginAccount"/>
+          <include name="endProject"/>
+        </methods>
+      </class> <!-- org.automation.test.stores.testcases.LoginAccountTesting -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

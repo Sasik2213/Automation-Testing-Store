@@ -1,4 +1,4 @@
-package org.automation.test.stores.pages;
+package org.project.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,20 +13,18 @@ public class EditPage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath = "//i[@class='fa fa-edit']")
+	@FindBy(xpath = "//a[@data-original-title='Edit account details']")
 	WebElement editBtn;
 	@FindBy(xpath = "//input[@id='AccountFrm_firstname']")
 	WebElement firstName;
 	@FindBy(xpath = "//button[normalize-space()='Continue']")
-	WebElement editContinueBtn;
+	WebElement editContinue;
 	public void performEdit() {
 		editBtn.click();
 	}
-	public void performUpdateName(String upName) {
+	public void updateName(String name) {
 		firstName.clear();
-		firstName.sendKeys(upName);
-	}
-	public void performContinue() {
-		editContinueBtn.click();
+		firstName.sendKeys(name);
+		editContinue.click();
 	}
 }

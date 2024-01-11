@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.automation.test.stores.testcases.AddToCartTest">
+      <class name="org.project.testcases.MyWishList">
         <methods>
-          <include name="addToCartTest"/>
-          <include name="startProject"/>
+          <include name="myWishList"/>
+          <include name="start"/>
         </methods>
-      </class> <!-- org.automation.test.stores.testcases.AddToCartTest -->
+      </class> <!-- org.project.testcases.MyWishList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

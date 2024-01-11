@@ -1,21 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-11T04:38:26 IST" name="Default suite" finished-at="2024-01-11T04:38:40 IST" duration-ms="14073">
+  <suite started-at="2024-01-11T12:39:13 IST" name="Suite" finished-at="2024-01-11T12:41:18 IST" duration-ms="125661">
     <groups>
     </groups>
-    <test started-at="2024-01-11T04:38:26 IST" name="Default test" finished-at="2024-01-11T04:38:40 IST" duration-ms="14073">
-      <class name="org.automation.test.stores.testcases.AddToCartTest">
-        <test-method is-config="true" signature="startProject()[pri:0, instance:org.automation.test.stores.testcases.AddToCartTest@51399530]" started-at="2024-01-11T04:38:26 IST" name="startProject" finished-at="2024-01-11T04:38:34 IST" duration-ms="7916" status="PASS">
+    <test started-at="2024-01-11T12:39:13 IST" name="Test" finished-at="2024-01-11T12:41:18 IST" duration-ms="125661">
+      <class name="org.project.testcases.Home">
+        <test-method is-config="true" signature="start()[pri:0, instance:org.project.testcases.Home@75d4a5c2]" started-at="2024-01-11T12:39:27 IST" name="start" finished-at="2024-01-11T12:39:36 IST" duration-ms="9002" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startProject -->
-        <test-method signature="addToCartTest()[pri:0, instance:org.automation.test.stores.testcases.AddToCartTest@51399530]" started-at="2024-01-11T04:38:34 IST" name="addToCartTest" finished-at="2024-01-11T04:38:40 IST" duration-ms="6108" status="PASS">
+        </test-method> <!-- start -->
+        <test-method signature="performHome()[pri:0, instance:org.project.testcases.Home@75d4a5c2]" started-at="2024-01-11T12:40:24 IST" name="performHome" finished-at="2024-01-11T12:40:43 IST" duration-ms="18917" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addToCartTest -->
-      </class> <!-- org.automation.test.stores.testcases.AddToCartTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- performHome -->
+        <test-method is-config="true" signature="end()[pri:0, instance:org.project.testcases.Home@75d4a5c2]" started-at="2024-01-11T12:41:15 IST" name="end" finished-at="2024-01-11T12:41:17 IST" duration-ms="1292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- org.project.testcases.Home -->
+      <class name="org.project.testcases.ChangePassword">
+        <test-method is-config="true" signature="start()[pri:0, instance:org.project.testcases.ChangePassword@408d971b]" started-at="2024-01-11T12:39:13 IST" name="start" finished-at="2024-01-11T12:39:20 IST" duration-ms="7606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="changePassword()[pri:0, instance:org.project.testcases.ChangePassword@408d971b]" started-at="2024-01-11T12:41:01 IST" name="changePassword" finished-at="2024-01-11T12:41:09 IST" duration-ms="8195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method is-config="true" signature="end()[pri:0, instance:org.project.testcases.ChangePassword@408d971b]" started-at="2024-01-11T12:41:14 IST" name="end" finished-at="2024-01-11T12:41:15 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- org.project.testcases.ChangePassword -->
+      <class name="org.project.testcases.EditAccountDetails">
+        <test-method is-config="true" signature="start()[pri:0, instance:org.project.testcases.EditAccountDetails@13c9d689]" started-at="2024-01-11T12:39:20 IST" name="start" finished-at="2024-01-11T12:39:27 IST" duration-ms="6757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="editAccountDetails()[pri:0, instance:org.project.testcases.EditAccountDetails@13c9d689]" started-at="2024-01-11T12:40:09 IST" name="editAccountDetails" finished-at="2024-01-11T12:40:18 IST" duration-ms="9235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editAccountDetails -->
+        <test-method is-config="true" signature="end()[pri:0, instance:org.project.testcases.EditAccountDetails@13c9d689]" started-at="2024-01-11T12:41:15 IST" name="end" finished-at="2024-01-11T12:41:15 IST" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- org.project.testcases.EditAccountDetails -->
+      <class name="org.project.testcases.Login">
+        <test-method is-config="true" signature="start()[pri:0, instance:org.project.testcases.Login@7c7a06ec]" started-at="2024-01-11T12:39:36 IST" name="start" finished-at="2024-01-11T12:39:40 IST" duration-ms="3872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="performLogin()[pri:0, instance:org.project.testcases.Login@7c7a06ec]" started-at="2024-01-11T12:40:18 IST" name="performLogin" finished-at="2024-01-11T12:40:24 IST" duration-ms="5955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogin -->
+        <test-method is-config="true" signature="end()[pri:0, instance:org.project.testcases.Login@7c7a06ec]" started-at="2024-01-11T12:41:17 IST" name="end" finished-at="2024-01-11T12:41:17 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- org.project.testcases.Login -->
+      <class name="org.project.testcases.OrderHistory">
+        <test-method is-config="true" signature="start()[pri:0, instance:org.project.testcases.OrderHistory@557caf28]" started-at="2024-01-11T12:39:52 IST" name="start" finished-at="2024-01-11T12:40:08 IST" duration-ms="15983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="orderHistory()[pri:0, instance:org.project.testcases.OrderHistory@557caf28]" started-at="2024-01-11T12:40:43 IST" name="orderHistory" finished-at="2024-01-11T12:41:01 IST" duration-ms="18292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistory -->
+        <test-method is-config="true" signature="end()[pri:0, instance:org.project.testcases.OrderHistory@557caf28]" started-at="2024-01-11T12:41:18 IST" name="end" finished-at="2024-01-11T12:41:18 IST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- org.project.testcases.OrderHistory -->
+      <class name="org.project.testcases.MyWishList">
+        <test-method is-config="true" signature="start()[pri:0, instance:org.project.testcases.MyWishList@6c6cb480]" started-at="2024-01-11T12:39:40 IST" name="start" finished-at="2024-01-11T12:39:52 IST" duration-ms="12392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="myWishList()[pri:0, instance:org.project.testcases.MyWishList@6c6cb480]" started-at="2024-01-11T12:41:09 IST" name="myWishList" finished-at="2024-01-11T12:41:14 IST" duration-ms="5097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myWishList -->
+        <test-method is-config="true" signature="end()[pri:0, instance:org.project.testcases.MyWishList@6c6cb480]" started-at="2024-01-11T12:41:17 IST" name="end" finished-at="2024-01-11T12:41:18 IST" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- org.project.testcases.MyWishList -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
